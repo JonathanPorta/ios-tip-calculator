@@ -21,21 +21,24 @@ class ViewController: UIViewController {
     totalTextField.text = String(format: "%0.2f", tipCalculator.total)
     taxPercentageSlider.value = Float(tipCalculator.taxRate) * 100.0
     taxPercentageLabel.text = "Tax Percentage (\(Int(taxPercentageSlider.value)))"
-    resultsTextView.text = ""
-  }
-  
-  @IBAction func calculateTapped(sender : AnyObject) {
-    tipCalculator.total = Double((totalTextField.text as NSString).doubleValue)
+
     var possibleTips = tipCalculator.getPossibleTips()
     var results = ""
     for (tipPercent, tipValue) in possibleTips {
       results += "\(tipPercent)%: \(tipValue)\n"
     }
     resultsTextView.text = results
+    resultsTextView.textAlignment = NSTextAlignment.Center
+  }
+  
+  @IBAction func calculate(sender : AnyObject) {
+    tipCalculator.taxRate = Double(taxPercentageSlider.value) / 100.0
+    tipCalculator.total = Double((totalTextField.text as NSString).doubleValue)
+    refreshUI()
   }
   
   @IBAction func taxPercentageChanged(sender : AnyObject) {
-    tipCalculator.taxRate = Double(taxPercentageSlider.value) / 100.0
+    
     //refreshUI()
   }
   

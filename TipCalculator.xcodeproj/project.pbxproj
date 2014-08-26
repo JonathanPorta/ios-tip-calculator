@@ -164,6 +164,7 @@
 				TargetAttributes = {
 					11F5B55D19AC1E9000F1D56A = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 52KRCFBNVN;
 					};
 					11F5B56F19AC1E9000F1D56A = {
 						CreatedOnToolsVersion = 6.0;
@@ -410,6 +411,7 @@
 				11F5B57C19AC1E9000F1D56A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11F5B57D19AC1E9000F1D56A /* Build configuration list for PBXNativeTarget "TipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +420,7 @@
 				11F5B57F19AC1E9000F1D56A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
