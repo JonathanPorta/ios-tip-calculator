@@ -37,26 +37,19 @@ class ViewController: UIViewController {
     refreshUI()
   }
   
-  @IBAction func taxPercentageChanged(sender : AnyObject) {
-    
-    //refreshUI()
-  }
-  
   @IBAction func viewTapped(sender : AnyObject) {
     totalTextField.resignFirstResponder()
   }
   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        refreshUI()
-    }
+  override func viewDidLoad() {
+      super.viewDidLoad()
+      // Do any additional setup after loading the view, typically from a nib.
+      refreshUI()
+  }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+  override func didReceiveMemoryWarning() {
+      super.didReceiveMemoryWarning()
+      // Dispose of any resources that can be recreated.
+  }
 }
 
