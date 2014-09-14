@@ -35,7 +35,7 @@
 		11F5B57019AC1E9000F1D56A /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F5B57519AC1E9000F1D56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11F5B57619AC1E9000F1D56A /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
-		11F5B58019AC200E00F1D56A /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		11F5B58019AC200E00F1D56A /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,6 @@
 		11F5B55519AC1E9000F1D56A = {
 			isa = PBXGroup;
 			children = (
-				11F5B58019AC200E00F1D56A /* TipCalculatorModel.swift */,
 				11F5B56019AC1E9000F1D56A /* TipCalculator */,
 				11F5B57319AC1E9000F1D56A /* TipCalculatorTests */,
 				11F5B55F19AC1E9000F1D56A /* Products */,
@@ -81,6 +80,7 @@
 		11F5B56019AC1E9000F1D56A /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				11F5B58019AC200E00F1D56A /* TipCalculatorModel.swift */,
 				11F5B56319AC1E9000F1D56A /* AppDelegate.swift */,
 				11F5B56519AC1E9000F1D56A /* ViewController.swift */,
 				11F5B56719AC1E9000F1D56A /* Main.storyboard */,
